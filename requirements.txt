@@ -47,6 +47,13 @@ gtts
 git+https://github.com/AsmSafone/SafoneAPI
 lexica-api==1.5.1
 httpx==0.25.2
+telethon
+cryptg
+heroku3
+flask
+aiohttp
+flask_restful
+gunicorn
 gpytranslate
 openai==0.28.0
 pickledb
