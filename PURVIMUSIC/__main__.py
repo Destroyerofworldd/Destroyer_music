@@ -50,12 +50,12 @@ async def init():
         pass
     await PURVI.decorators()
     LOGGER("PURVIMUSIC").info(
-        "╔═════ஜ۩۞۩ஜ════╗\n  ☠︎︎𝗠𝗔𝗗𝗘 𝗕𝗬 𝗗𝗘𝗦𝗧𝗥𝗢𝗬𝗘𝗥☠︎︎\n╚═════ஜ۩۞۩ஜ════╝"
+        "╔═════ஜ۩۞۩ஜ════╗\n  ☠︎︎𝗠𝗔𝗗𝗘 𝗕𝗬 𝗙𝗔𝗗𝗘𝗗☠︎︎\n╚═════ஜ۩۞۩ஜ════╝"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("PURVIMUSIC").info("𝗦𝗧𝗢𝗣 𝗣𝗨𝗥𝗩𝗜 𝗠𝗨𝗦𝗜𝗖🎻 𝗕𝗢𝗧..")
+    LOGGER("PURVIMUSIC").info("𝗦𝗧𝗢𝗣 𝗙𝗔𝗗𝗘𝗗 𝗠𝗨𝗦𝗜𝗖🎻 𝗕𝗢𝗧..")
 
 
 if __name__ == "__main__":
