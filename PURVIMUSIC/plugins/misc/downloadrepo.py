@@ -28,7 +28,7 @@ from pyrogram import Client, filters
 import git
 import shutil
 import os
-from PURVIMUSIC import app
+from FADEDMUSIC import app
 
 
 

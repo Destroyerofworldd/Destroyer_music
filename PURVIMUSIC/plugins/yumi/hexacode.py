@@ -1,5 +1,5 @@
 from pyrogram import Client, filters
-from PURVIMUSIC import app
+from FADEDMUSIC import app
 from config import BOT_USERNAME
 
 

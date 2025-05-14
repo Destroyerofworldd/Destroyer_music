@@ -1,10 +1,10 @@
 import re
-from PURVIMUSIC import app
+from FADEDMUSIC import app
 from config import BOT_USERNAME
-from PURVIMUSIC.utils.purvi_ban import admin_filter
-from PURVIMUSIC.mongo.filtersdb import *
-from PURVIMUSIC.utils.filters_func import GetFIlterMessage, get_text_reason, SendFilterMessage
-from PURVIMUSIC.utils.yumidb import user_admin
+from FADEDMUSIC.utils.purvi_ban import admin_filter
+from FADEDMUSIC.mongo.filtersdb import *
+from FADEDMUSIC.utils.filters_func import GetFIlterMessage, get_text_reason, SendFilterMessage
+from FADEDMUSIC.utils.yumidb import user_admin
 from pyrogram import filters
 from pyrogram.enums import ChatMemberStatus
 from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup

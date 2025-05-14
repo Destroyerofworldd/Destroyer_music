@@ -9,13 +9,13 @@ from pyrogram.types import InputMediaPhoto, Message
 from pytgcalls.__version__ import __version__ as pytgver
 
 import config
-from PURVIMUSIC import app
-from PURVIMUSIC.core.userbot import assistants
-from PURVIMUSIC.misc import SUDOERS, mongodb
-from PURVIMUSIC.plugins import ALL_MODULES
-from PURVIMUSIC.utils.database import get_served_chats, get_served_users, get_sudoers
-from PURVIMUSIC.utils.decorators.language import language, languageCB
-from PURVIMUSIC.utils.inline.stats import back_stats_buttons, stats_buttons
+from FADEDMUSIC import app
+from FADEDMUSIC.core.userbot import assistants
+from FADEDMUSIC.misc import SUDOERS, mongodb
+from FADEDMUSIC.plugins import ALL_MODULES
+from FADEDMUSIC.utils.database import get_served_chats, get_served_users, get_sudoers
+from FADEDMUSIC.utils.decorators.language import language, languageCB
+from FADEDMUSIC.utils.inline.stats import back_stats_buttons, stats_buttons
 from config import BANNED_USERS
 
 

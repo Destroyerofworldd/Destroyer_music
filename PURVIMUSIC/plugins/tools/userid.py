@@ -1,4 +1,4 @@
-from PURVIMUSIC import app
+from FADEDMUSIC import app
 from pyrogram import Client, filters
 
 from pyrogram.enums import ParseMode

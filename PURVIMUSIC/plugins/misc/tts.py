@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 from gtts import gTTS
-from PURVIMUSIC import app
+from FADEDMUSIC import app
 
 
 @app.on_message(filters.command('tts'))

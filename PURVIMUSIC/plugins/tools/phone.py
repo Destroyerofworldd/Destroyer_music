@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 import requests
 import json
-from PURVIMUSIC import app
+from FADEDMUSIC import app
 
 def send_message(message, text):
     message.reply_text(text)

@@ -2,14 +2,14 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
-from PURVIMUSIC import YouTube, app
-from PURVIMUSIC.core.call import PURVI
-from PURVIMUSIC.misc import db
-from PURVIMUSIC.utils.database import get_loop
-from PURVIMUSIC.utils.decorators import AdminRightsCheck
-from PURVIMUSIC.utils.inline import close_markup, stream_markup
-from PURVIMUSIC.utils.stream.autoclear import auto_clean
-from PURVIMUSIC.utils.thumbnails import get_thumb
+from FADEDMUSIC import YouTube, app
+from FADEDMUSIC.core.call import PURVI
+from FADEDMUSIC.misc import db
+from FADEDMUSIC.utils.database import get_loop
+from FADEDMUSIC.utils.decorators import AdminRightsCheck
+from FADEDMUSIC.utils.inline import close_markup, stream_markup
+from FADEDMUSIC.utils.stream.autoclear import auto_clean
+from FADEDMUSIC.utils.thumbnails import get_thumb
 from config import BANNED_USERS
 
 

@@ -1,14 +1,14 @@
 import random
 from pyrogram import filters
-from PURVIMUSIC import app
-from PURVIMUSIC import *
+from FADEDMUSIC import app
+from FADEDMUSIC import *
 from ... import *
 import config
 
 from ...logging import LOGGER
 
-from PURVIMUSIC import app, userbot
-from PURVIMUSIC.core.userbot import *
+from FADEDMUSIC import app, userbot
+from FADEDMUSIC.core.userbot import *
 
 import asyncio
 
@@ -19,7 +19,7 @@ import asyncio
 from pyrogram import Client, filters
 from pyrogram.errors import FloodWait
 from dotenv import load_dotenv
-from PURVIMUSIC.core.userbot import Userbot
+from FADEDMUSIC.core.userbot import Userbot
 from datetime import datetime
 
 # Assuming Userbot is defined elsewhere

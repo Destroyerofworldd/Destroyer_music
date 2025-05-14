@@ -1,4 +1,4 @@
-from PURVIMUSIC import app 
+from FADEDMUSIC import app 
 import requests as r
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup 
 from pyrogram import filters 

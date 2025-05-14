@@ -1,6 +1,6 @@
 from typing import Union
-from PURVIMUSIC import app
-from PURVIMUSIC.utils.formatters import time_to_seconds
+from FADEDMUSIC import app
+from FADEDMUSIC.utils.formatters import time_to_seconds
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 

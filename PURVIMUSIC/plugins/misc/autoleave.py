@@ -4,9 +4,9 @@ from datetime import datetime
 from pyrogram.enums import ChatType
 
 import config
-from PURVIMUSIC import app
-from PURVIMUSIC.core.call import PURVI, autoend
-from PURVIMUSIC.utils.database import get_client, is_active_chat, is_autoend
+from FADEDMUSIC import app
+from FADEDMUSIC.core.call import PURVI, autoend
+from FADEDMUSIC.utils.database import get_client, is_active_chat, is_autoend
 
 
 async def auto_leave():
@@ -14,7 +14,7 @@ async def auto_leave():
         while not await asyncio.sleep(
             config.AUTO_LEAVE_ASSISTANT_TIME
         ):
-            from PURVIMUSIC.core.userbot import assistants
+            from FADEDMUSIC.core.userbot import assistants
 
             for num in assistants:
                 client = await get_client(num)

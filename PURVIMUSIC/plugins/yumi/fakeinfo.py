@@ -23,7 +23,7 @@ SOFTWARE.***
 """
 
 import requests
-from PURVIMUSIC import app
+from FADEDMUSIC import app
 from pyrogram import filters
 
 

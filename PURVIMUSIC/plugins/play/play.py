@@ -6,22 +6,22 @@ from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from PURVIMUSIC import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from PURVIMUSIC.core.call import PURVI
-from PURVIMUSIC.utils import seconds_to_min, time_to_seconds
-from PURVIMUSIC.utils.channelplay import get_channeplayCB
-from PURVIMUSIC.utils.decorators.language import languageCB
-from PURVIMUSIC.utils.decorators.play import PlayWrapper
-from PURVIMUSIC.utils.formatters import formats
-from PURVIMUSIC.utils.inline import (
+from FADEDMUSIC import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from FADEDMUSIC.core.call import PURVI
+from FADEDMUSIC.utils import seconds_to_min, time_to_seconds
+from FADEDMUSIC.utils.channelplay import get_channeplayCB
+from FADEDMUSIC.utils.decorators.language import languageCB
+from FADEDMUSIC.utils.decorators.play import PlayWrapper
+from FADEDMUSIC.utils.formatters import formats
+from FADEDMUSIC.utils.inline import (
     botplaylist_markup,
     livestream_markup,
     playlist_markup,
     slider_markup,
     track_markup,
 )
-from PURVIMUSIC.utils.logger import play_logs
-from PURVIMUSIC.utils.stream.stream import stream
+from FADEDMUSIC.utils.logger import play_logs
+from FADEDMUSIC.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical
 
 

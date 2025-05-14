@@ -1,10 +1,10 @@
 import requests
 import random
-from PURVIMUSIC import app, userbot
-from PURVIMUSIC.misc import SUDOERS
+from FADEDMUSIC import app, userbot
+from FADEDMUSIC.misc import SUDOERS
 from pyrogram import * 
 from pyrogram.types import *
-from PURVIMUSIC.utils.purvi_ban import admin_filter
+from FADEDMUSIC.utils.purvi_ban import admin_filter
 
 
 

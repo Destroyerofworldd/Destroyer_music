@@ -1,16 +1,16 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from PURVIMUSIC import app
-from PURVIMUSIC.utils import extract_user, int_to_alpha
-from PURVIMUSIC.utils.database import (
+from FADEDMUSIC import app
+from FADEDMUSIC.utils import extract_user, int_to_alpha
+from FADEDMUSIC.utils.database import (
     delete_authuser,
     get_authuser,
     get_authuser_names,
     save_authuser,
 )
-from PURVIMUSIC.utils.decorators import AdminActual, language
-from PURVIMUSIC.utils.inline import close_markup
+from FADEDMUSIC.utils.decorators import AdminActual, language
+from FADEDMUSIC.utils.inline import close_markup
 from config import BANNED_USERS, adminlist
 
 

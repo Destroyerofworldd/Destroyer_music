@@ -14,17 +14,17 @@ from pyrogram.errors import (
     UserIsBlocked,
 )
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-from PURVIMUSIC import app
+from FADEDMUSIC import app
 from config import BOT_USERNAME
-from PURVIMUSIC.utils.errors import capture_err
+from FADEDMUSIC.utils.errors import capture_err
 
-from PURVIMUSIC.utils.files import (
+from FADEDMUSIC.utils.files import (
     get_document_from_file_id,
     resize_file_to_sticker_size,
     upload_document,
 )
 
-from PURVIMUSIC.utils.stickerset import (
+from FADEDMUSIC.utils.stickerset import (
     add_sticker_to_set,
     create_sticker,
     create_sticker_set,

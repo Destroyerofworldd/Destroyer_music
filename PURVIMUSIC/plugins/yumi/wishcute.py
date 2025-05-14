@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 import random
 import requests
-from PURVIMUSIC import app 
+from FADEDMUSIC import app 
 
 SUPPORT_CHAT = "PURVI_UPDATES"
 

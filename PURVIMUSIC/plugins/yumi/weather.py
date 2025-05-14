@@ -1,5 +1,5 @@
 from pyrogram import Client, filters
-from PURVIMUSIC import app
+from FADEDMUSIC import app
 
 
 @app.on_message(filters.command("weather"))

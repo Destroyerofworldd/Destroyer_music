@@ -1,6 +1,6 @@
 import random, os
 from pyrogram import Client, filters, enums 
-from PURVIMUSIC import app
+from FADEDMUSIC import app
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 

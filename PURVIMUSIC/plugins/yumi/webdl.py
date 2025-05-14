@@ -9,7 +9,7 @@ import requests
 from pyrogram import Client, filters
 from requests.adapters import HTTPAdapter
 from requests.packages.urllib3.util.retry import Retry
-from PURVIMUSIC import app
+from FADEDMUSIC import app
 
 
 def download_website(url):

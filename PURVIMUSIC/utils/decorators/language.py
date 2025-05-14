@@ -1,5 +1,5 @@
-from PURVIMUSIC.misc import SUDOERS
-from PURVIMUSIC.utils.database import get_lang, is_maintenance
+from FADEDMUSIC.misc import SUDOERS
+from FADEDMUSIC.utils.database import get_lang, is_maintenance
 from strings import get_string
 
 

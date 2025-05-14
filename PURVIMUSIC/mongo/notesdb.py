@@ -1,6 +1,6 @@
-from PURVIMUSIC.utils.mongo import db
+from FADEDMUSIC.utils.mongo import db
 
-#from PURVIMUSIC.mongo import *# back...............
+#from FADEDMUSIC.mongo import *# back...............
 
 notes = db.notes["notes"]
 

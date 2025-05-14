@@ -9,9 +9,9 @@ from pyrogram.errors import (
 )
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from PURVIMUSIC import YouTube, app
-from PURVIMUSIC.misc import SUDOERS
-from PURVIMUSIC.utils.database import (
+from FADEDMUSIC import YouTube, app
+from FADEDMUSIC.misc import SUDOERS
+from FADEDMUSIC.utils.database import (
     get_assistant,
     get_cmode,
     get_lang,
@@ -20,7 +20,7 @@ from PURVIMUSIC.utils.database import (
     is_active_chat,
     is_maintenance,
 )
-from PURVIMUSIC.utils.inline import botplaylist_markup
+from FADEDMUSIC.utils.inline import botplaylist_markup
 from config import PLAYLIST_IMG_URL, SUPPORT_CHAT, adminlist
 from strings import get_string
 

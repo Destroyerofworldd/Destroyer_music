@@ -1,4 +1,4 @@
-from PURVIMUSIC import app 
+from FADEDMUSIC import app 
 import asyncio
 import random
 from pyrogram import Client, filters

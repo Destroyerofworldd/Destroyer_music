@@ -3,8 +3,8 @@ from pyrogram import filters
 from pyrogram.enums import ChatType
 from pyrogram.errors import MessageDeleteForbidden, RPCError
 from pyrogram.types import Message
-from PURVIMUSIC.utils.purvi_ban import admin_filter
-from PURVIMUSIC import app
+from FADEDMUSIC.utils.purvi_ban import admin_filter
+from FADEDMUSIC import app
 
 
 @app.on_message(filters.command("purge") & admin_filter)

@@ -1,9 +1,9 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from PURVIMUSIC import app
-from PURVIMUSIC.misc import SUDOERS
-from PURVIMUSIC.utils.database import (
+from FADEDMUSIC import app
+from FADEDMUSIC.misc import SUDOERS
+from FADEDMUSIC.utils.database import (
     get_lang,
     is_maintenance,
     maintenance_off,

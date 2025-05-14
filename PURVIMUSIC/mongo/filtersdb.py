@@ -1,4 +1,4 @@
-from PURVIMUSIC.utils.mongo import db
+from FADEDMUSIC.utils.mongo import db
 
 filters = db.filters["filters"] 
 

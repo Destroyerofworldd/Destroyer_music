@@ -1,8 +1,8 @@
-from PURVIMUSIC import app
+from FADEDMUSIC import app
 from config import OWNER_ID
 from pyrogram import filters, enums
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from PURVIMUSIC.utils.purvi_ban import admin_filter
+from FADEDMUSIC.utils.purvi_ban import admin_filter
 
 BOT_ID = "6974730627"
 

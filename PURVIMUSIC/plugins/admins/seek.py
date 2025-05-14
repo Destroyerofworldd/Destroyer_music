@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from PURVIMUSIC import YouTube, app
-from PURVIMUSIC.core.call import PURVI
-from PURVIMUSIC.misc import db
-from PURVIMUSIC.utils import AdminRightsCheck, seconds_to_min
-from PURVIMUSIC.utils.inline import close_markup
+from FADEDMUSIC import YouTube, app
+from FADEDMUSIC.core.call import PURVI
+from FADEDMUSIC.misc import db
+from FADEDMUSIC.utils import AdminRightsCheck, seconds_to_min
+from FADEDMUSIC.utils.inline import close_markup
 from config import BANNED_USERS
 
 

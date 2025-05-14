@@ -1,8 +1,8 @@
-from PURVIMUSIC.core.bot import PURVI
-from PURVIMUSIC.core.dir import dirr
-from PURVIMUSIC.core.git import git
-from PURVIMUSIC.core.userbot import Userbot
-from PURVIMUSIC.misc import dbb, heroku
+from FADEDMUSIC.core.bot import PURVI
+from FADEDMUSIC.core.dir import dirr
+from FADEDMUSIC.core.git import git
+from FADEDMUSIC.core.userbot import Userbot
+from FADEDMUSIC.misc import dbb, heroku
 
 from SafoneAPI import SafoneAPI
 from .logging import LOGGER

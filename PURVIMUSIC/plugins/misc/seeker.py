@@ -1,7 +1,7 @@
 import asyncio
 
-from PURVIMUSIC.misc import db
-from PURVIMUSIC.utils.database import get_active_chats, is_music_playing
+from FADEDMUSIC.misc import db
+from FADEDMUSIC.utils.database import get_active_chats, is_music_playing
 
 
 async def timer():

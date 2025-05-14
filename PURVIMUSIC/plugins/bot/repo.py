@@ -1,8 +1,8 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from PURVIMUSIC import app
+from FADEDMUSIC import app
 from config import BOT_USERNAME
-from PURVIMUSIC.utils.errors import capture_err
+from FADEDMUSIC.utils.errors import capture_err
 import httpx 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 

@@ -4,11 +4,11 @@ from pyrogram import filters
 from pyrogram.types import Message
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InputMediaPhoto
 from config import *
-from PURVIMUSIC import app
-from PURVIMUSIC.core.call import PURVI
-from PURVIMUSIC.utils import bot_sys_stats
-from PURVIMUSIC.utils.decorators.language import language
-from PURVIMUSIC.utils.inline import supp_markup
+from FADEDMUSIC import app
+from FADEDMUSIC.core.call import PURVI
+from FADEDMUSIC.utils import bot_sys_stats
+from FADEDMUSIC.utils.decorators.language import language
+from FADEDMUSIC.utils.inline import supp_markup
 from config import BANNED_USERS
 
 
