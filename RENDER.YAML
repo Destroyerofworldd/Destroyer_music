@@ -19,4 +19,10 @@ https://github.com/Destroyerofworldd/Destroyer_music
         sync: false
       - key: MONGO_URL
         sync: false    
+      - key: STRING_SESSION
+        sync: false   
+      - key: API_ID
+        sync: false   
+      - key: API_HASH
+        sync: false    
     autoDeploy: false
