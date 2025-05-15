@@ -14,9 +14,9 @@ API_HASH = getenv("API_HASH")
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","@ll_FADED_HU_ll")
+OWNER_USERNAME = getenv("OWNER_USERNAME","@Sexyycopyright")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME","@FADED_MUSIC_BOT")
+BOT_USERNAME = getenv("BOT_USERNAME","@optimus_music_bot")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME")
 # ---------------------------------------------------------
@@ -53,7 +53,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Destroyerofworldd/Destroyer_music",
+    "https://github.com",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main", 
                         )
@@ -68,8 +68,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/FADED_KI_DUNIYA")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/SANATANI_SUPPORT")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/destrroyerofworldd")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+pOu46AYFwe4zMjJl")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
