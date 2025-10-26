@@ -14,9 +14,9 @@ API_HASH = getenv("API_HASH")
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","@ll_FADED_HU_ll")
+OWNER_USERNAME = getenv("OWNER_USERNAME","@FADED_HU")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME","@FADED_MUSIC_BOT")
+BOT_USERNAME = getenv("BOT_USERNAME","@Faded_music_bot")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME")
 # ---------------------------------------------------------
@@ -35,7 +35,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -4666784332)) 
+LOGGER_ID = int(getenv("LOGGER_ID", -1003273275997)) 
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
 OWNER_ID = int(getenv("OWNER_ID", None)) 
@@ -68,8 +68,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/FADED_KI_DUNIYA")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/SANATANI_SUPPORT")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TechNodeCoders")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/LOVE_VERSEEE")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
